@@ -95,7 +95,13 @@ Feel free to alter the script to experiment with whatever you need.
 
   ![image-20211226104557042](./mongo-version.png)
 
-  ### Basics
+  ## Connecting with Compass
+
+- With default settings, connect to the database using `mongodb://rootuser:rootpass@localhost:27017/<database>`
+
+  ![image-20211227141316539](./compass.png)
+
+  ## Basics
 
 - Mongo stores records as **BSON documents**, which is a binary representation of JSON
 
