@@ -137,7 +137,9 @@ Feel free to alter the script to experiment with whatever you need.
 ### Node
 
 - https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb-how-to-get-connected-to-your-database
-
 - [Setup Node with Mongo on Pluralsight](https://app.pluralsight.com/projects/using-mongodb-with-node-js/setup/46c7e2d3-8413-4a58-9515-e8e3976f66f6)
 
-  
+
+## Python
+
+- https://www.mongodb.com/compatibility/mongodb-and-django
