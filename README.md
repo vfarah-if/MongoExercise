@@ -53,13 +53,11 @@ Feel free to alter the script to experiment with whatever you need.
 
 - Create a database on Mongo Express using the UI, and than type `use <database>;` to connect to the database and `db.getName();`  make sure you are connected to the database by name
 
-- **Create a collection**`db.createCollection("<collection>");` and then `show collections;`
+- **Create a collection**`db.createCollection("<collectionSingular>");` and then `show collections;`
 
-  ![image-20211226101153519](./mng-createcollection.png)
+- **Deleting the collection** `db.player.drop();`
 
-- **Deleting the collection** `db.players.drop();`
-
-- Finally getting the **stats** on the collection `db.players.stats();` can give you everything about the details if that collection, as well as help on methods
+- Finally getting the **stats** on the collection `db.player.stats();` can give you everything about the details if that collection, as well as help on methods
 
 - **Deleting the database** can be done with `db.dropDatabase();`
 
