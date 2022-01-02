@@ -79,7 +79,7 @@ Feel free to alter the script to experiment with whatever you need.
 
   ```shell
   # Example of incrementing specific players battle count, losses and totalWinnings
-  db.player.update({_id: ObjectId("61c85ee6825383f6c0897182"), $set: {$inc: {battles:1} , $inc: {losses: 0}, $inc: {totalWinnings: 350}})
+  db.player.update({_id: ObjectId("61c85ee6825383f6c0897182"), {$set: {$inc: {battles:1} , $inc: {losses: 0}, $inc: {totalWinnings: 350}}})
   ```
 
   - **$unset** to remove field which can be useful if there is a need to remove an unecessary field
