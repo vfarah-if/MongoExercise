@@ -143,3 +143,9 @@ Feel free to alter the script to experiment with whatever you need.
 ## Python
 
 - https://www.mongodb.com/compatibility/mongodb-and-django
+
+
+
+Below is an [HTTP decision](https://raw.githubusercontent.com/for-GET/http-decision-diagram/master/httpdd.png) tree when which can help in understanding what can be implemented and supported
+
+![img](./httpdd.png)
