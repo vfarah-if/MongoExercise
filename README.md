@@ -103,6 +103,10 @@ Feel free to alter the script to experiment with whatever you need.
 
   ## Basics
 
+- [Cap Theorem](https://www.bmc.com/blogs/cap-theorem/#:~:text=The%20CAP%20theorem%20is%20a,or%20availability%E2%80%94but%20not%20both.) knowledge and why to use NoSQL and what to do to configure it
+
+  - [Scaling mongo](https://learn.fmi.uni-sofia.bg/file.php/331/lab_practice_exercises/MongoDB_18April/Scaling_MongoDB.pdf) in detail, and is one of the most important reasons to choose NOSQL over relational databases. If you understand this, the principle of distributed computing, you will understand why you chose one over another
+
 - Mongo stores records as **BSON documents**, which is a binary representation of JSON
 
 - **BSON Types** (with deprecated types removed)
