@@ -95,7 +95,9 @@ Feel free to alter the script to experiment with whatever you need.
 
   ![image-20211226104557042](./mongo-version.png)
 
-  ## Connecting with Compass
+  ## Connecting with Compass or vscode
+
+- Install Mongo as a [vscode extension](https://docs.mongodb.com/mongodb-vscode/)
 
 - With default settings, connect to the database using `mongodb://rootuser:rootpass@localhost:27017/<database>`
 
@@ -148,8 +150,6 @@ Feel free to alter the script to experiment with whatever you need.
 
 - https://www.mongodb.com/compatibility/mongodb-and-django
 
+## Presentation
 
-
-Below is an [HTTP decision](https://raw.githubusercontent.com/for-GET/http-decision-diagram/master/httpdd.png) tree when which can help in understanding what can be implemented and supported
-
-![img](./httpdd.png)
+![Presentation](./Presentation/presentation.png)
