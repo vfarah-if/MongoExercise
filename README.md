@@ -43,6 +43,13 @@ Feel free to alter the script to experiment with whatever you need.
   mongo mongodb://localhost:27017 -u rootuser -p rootpass
   ```
 
+  - **NOTE**: If this does not work on the docker image install locally using https://www.mongodb.com/docs/mongodb-shell/install/
+
+    ```bash
+    # MacOS
+    brew install mongosh
+    ```
+
 - Connect to the docker cli for mongdb or do it through the terminal direct if you are familiar with docker
 
   ![image-20211225114207850](./docker-desktop.png)

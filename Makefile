@@ -13,3 +13,10 @@ mdb-down:
 mdb-verify-script:
 	echo "Verify Docker script ..."
 	docker compose -f docker-compose.yml config
+
+shell-help:
+	echo "Help on the mongo shell options"
+	docker run -it --rm mongo --help
+
+shell:
+	docker run -it --rm mongo
