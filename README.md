@@ -135,6 +135,8 @@ Feel free to alter the script to experiment with whatever you need.
 
 - If you are familiar with SQL server, these are the NOSQL Mongo specific comparisons found at https://docs.mongodb.com/manual/reference/sql-comparison/
 
+- Here is a comprehensive [cheat sheet](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/) for going through the basics
+
 ## Recommended Tutorials
 
 - [MongoDB beginner tutorial](https://www.youtube.com/watch?v=Www6cTUymCY) will give you the basics for everything above going through everything in more detail
